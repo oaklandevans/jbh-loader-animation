@@ -4,16 +4,16 @@
 }
 
 .loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 100px auto;
   font-size: 35px;
-  width: 0.75em;
-  height: 0.75em;
+  width: 0.5em;
+  height: 0.5em;
   border-radius: 50%;
   position: relative;
-  -webkit-animation: jbh-load 1.1s infinite ease;
   animation: jbh-load 1.1s infinite ease;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
   transform: translateZ(0);
 }
 
