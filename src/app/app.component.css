@@ -1,4 +1,8 @@
 /* Start Loader-1 */
+.logo-pic {
+  width: 100px;
+}
+
 .loader {
   margin: 100px auto;
   font-size: 35px;
@@ -6,7 +10,6 @@
   height: 0.75em;
   border-radius: 50%;
   position: relative;
-  text-indent: -9999em;
   -webkit-animation: jbh-load 1.1s infinite ease;
   animation: jbh-load 1.1s infinite ease;
   -webkit-transform: translateZ(0);
